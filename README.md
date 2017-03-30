@@ -1,2 +1,2 @@
 # formAlumni
-Form Alumni PPI Turki
+Form Alumni PPI Turki alumni.ppiturki.org
