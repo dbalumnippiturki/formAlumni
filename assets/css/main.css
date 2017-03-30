@@ -1,79 +1,45 @@
-<style type="text/css">
-.form-style-6{
-    font: 95% Scope One, Helvetica, sans-serif;
-    max-width: 100px;
-    margin: 10px auto;
-    padding: 16px;
-    background: #F7F7F7;
-}
-.form-style-6 h1{
-    background: #43D1AF;
-    padding: 20px 0;
-    font-size: 140%;
-    font-weight: 300;
-    text-align: center;
-    color: #fff;
-    margin: -16px -16px 16px -16px;
-}
-.form-style-6 input[type="text"],
-.form-style-6 input[type="date"],
-.form-style-6 input[type="datetime"],
-.form-style-6 input[type="email"],
-.form-style-6 input[type="number"],
-.form-style-6 input[type="search"],
-.form-style-6 input[type="time"],
-.form-style-6 input[type="url"],
-.form-style-6 textarea,
-.form-style-6 select 
-{
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-    outline: none;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 100%;
-    background: #fff;
-    margin-bottom: 4%;
-    border: 1px solid #ccc;
-    padding: 3%;
-    color: #555;
-    font: 95% Arial, Helvetica, sans-serif;
-}
-.form-style-6 input[type="text"]:focus,
-.form-style-6 input[type="date"]:focus,
-.form-style-6 input[type="datetime"]:focus,
-.form-style-6 input[type="email"]:focus,
-.form-style-6 input[type="number"]:focus,
-.form-style-6 input[type="search"]:focus,
-.form-style-6 input[type="time"]:focus,
-.form-style-6 input[type="url"]:focus,
-.form-style-6 textarea:focus,
-.form-style-6 select:focus
-{
-    box-shadow: 0 0 5px #43D1AF;
-    padding: 3%;
-    border: 1px solid #43D1AF;
+body {
+	background: rgb(209, 67, 71);
+	color: white;
+	font-family: Source Sans Pro;
 }
 
-.form-style-6 input[type="submit"],
-.form-style-6 input[type="button"]{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 100%;
-    padding: 3%;
-    background: #43D1AF;
-    border-bottom: 2px solid #30C29E;
-    border-top-style: none;
-    border-right-style: none;
-    border-left-style: none;    
-    color: #fff;
+body h1 {
+	font-family: Scope One;
 }
-.form-style-6 input[type="submit"]:hover,
-.form-style-6 input[type="button"]:hover{
-    background: #2EBC99;
+
+body .nav-menu {
+	float:left;
+	width: 25%;
+	height: 100%;
+	background: rgb(42, 40, 90);
 }
-</style>
+
+body .main-menu {
+	margin-left: 5px;
+	display: inline-block;
+	background: rgb(163, 20, 20);
+	width: 74%;
+	height: 100%;
+	text-align: center;
+}
+
+body .nav-menu .logoPPI{
+	display: block;
+	margin: 0 auto;
+	background: white;
+	width: auto;
+	height: 200px;
+}
+
+body .nav-menu ul{
+	margin-top: 100px;
+	list-style-type: none;
+	text-align: right;
+}
+
+body .nav-menu ul li{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
