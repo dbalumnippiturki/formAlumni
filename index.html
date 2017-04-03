@@ -14,9 +14,9 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Home</a></li>
+							<li><a href="#intro">Beranda</a></li>
 							<li><a href="#one">Form Alumni</a></li>
-							<li><a href="#two">About</a></li>
+							<li><a href="#two">Tentang</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -62,41 +62,82 @@
 											<input type="text" name="email" id="email" />
 										</div>
 										<div class="field">
-											<label for="name">Jenis Kelamin</label>
+											<label for="jenisKelamin">Jenis Kelamin</label>
 											<select name="dropdown">
 											<option value="Laki-Laki" selected>Laki-Laki</option>
 											<option value="Perempuan">Perempuan</option>
 											</select>
 										</div>
-										<p><br></p>
-										<h2>Pendidikan di Turki<br></h2>
-										<div class="field half first">
-											<label for="tahun lulus">Tahun Lulus</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field half">
-											<label for="Program Studi">Program Studi</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field half first">
-											<label for="Universitas">Universitas</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field half">
-											<label for="Jenjang">Jenjang</label>
-											<input type="text" name="email" id="email" />
-										</div>
 										<div class="field">
 											<label for="message">Alamat Sekarang</label>
 											<textarea name="message" id="message" rows="5"></textarea>
 										</div>
-										<div class="field">
-											<label for="kegiatan">Kegiatan Sekarang</label>
+										<p><br></p>
+										<h2>Pendidikan di Turki<br></h2>
+										<div class="field half first">
+											<label for="tahun lulus">Tahun Lulus</label>
+											<input type="text" name="tahun lulus" id="tahlulus" />
+										</div>
+										<div class="field half">
+											<label for="Program Studi">Program Studi</label>
+											<input type="text" name="program" id="program" />
+										</div>
+										<div class="field half first">
+											<label for="Universitas">Universitas</label>
+											<input type="text" name="univ" id="univ" />
+										</div>
+										<div class="field half">
+											<label for="Jenjang">Jenjang</label>
+											<input type="text" name="jenjang" id="jenjang" />
+										</div>
+										<div class="field half first">
+											<label for="Kota">Kota</label>
+											<input type="text" name="Kota" id="kota" />
+										</div>
+										<div class="field half">
+											<label for="Jalur ke Turki">Jalur ke Turki</label>
 											<select name="dropdown">
-											<option value="Bekerja" selected>Bekerja</option>
-											<option value="Belum Bekerja">Belum Bekerja</option>
-											<option value="Membuka Usaha">Membuka Usaha</option>
+											<option value="YTB" selected>YTB</option>
+											<option value="Mandiri">Mandiri</option>
+											<option value="Mandiri">Pemerintah Indonesia</option>
 											</select>
+										</div>
+										<p>**Kota universitas terletak</p>
+										<h2><br/>Kegiatan Saat Ini</h2>
+										<div class="field">
+											<select name="kegiatan">
+											<option value="1" selected>Melanjutkan Studi</option>
+											<option value="2">Bekerja</option>
+											<option value="3">Membuka Usaha</option>
+											</select>
+										</div>
+										<div id = "lanjutKuliah" style = "display:none;">
+											<div class="field half first">
+											<label for="ProgStudi">Program Studi</label>
+											<input type="text" name="univ" id="univ" />
+											</div>
+											<div class="field half">
+												<label for="Jenjang">Jenjang</label>
+												<input type="text" name="jenjang" id="jenjang" />
+											</div>
+											<div class="field half first">
+											<label for="Universitas">Universitas</label>
+											<input type="text" name="univ" id="univ" />
+											</div>
+											<div class="field half">
+											<label for="Negara">Negara</label>
+											<input type="text" name="univ" id="univ" />
+											</div>
+										</div>
+										<div id = "bekerja" style = "display:none;">
+											<div class="field half first">
+											<label for="Perusahaan">Nama Perusahaan</label>
+											<input type="text" name="univ" id="univ" />
+											</div>
+											<div class="field half">
+												<label for="BidangPerusahaan">Bidang Perusahaan</label>
+												<input type="text" name="jenjang" id="jenjang" />
+											</div>
 										</div>
 										
 								
@@ -108,6 +149,7 @@
 					</section>
 
 				<!-- Three -->
+<!--
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
@@ -165,6 +207,7 @@
 					</section>
 
 			</div>
+-->
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
@@ -183,6 +226,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/formnew.js"></script>
 
 	</body>
 </html>
