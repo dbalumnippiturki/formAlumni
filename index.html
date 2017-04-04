@@ -88,7 +88,12 @@
 										</div>
 										<div class="field half">
 											<label for="Jenjang">Jenjang</label>
-											<input type="text" name="jenjang" id="jenjang" />
+											<select name="dropdown">
+												<option value="SMA" selected>SMA (High school)</option>
+												<option value="S1">S1 (Bachelor)</option>
+												<option value="S2">S2 (Master)</option>
+												<option value="S3">S3 (PhD)</option>
+											</select>
 										</div>
 										<div class="field half first">
 											<label for="Kota">Kota</label>
@@ -108,7 +113,8 @@
 											<select name="kegiatan">
 											<option value="1" selected>Melanjutkan Studi</option>
 											<option value="2">Bekerja</option>
-											<option value="3">Membuka Usaha</option>
+											<option value="3">Membuka Usaha (Entrepreneur)</option>
+											<option value="4">Kegiatan Lainnya</option>
 											</select>
 										</div>
 										<div id = "lanjutKuliah" style = "display:none;">
@@ -135,14 +141,56 @@
 											<input type="text" name="univ" id="univ" />
 											</div>
 											<div class="field half">
-												<label for="BidangPerusahaan">Bidang Perusahaan</label>
+												<label for="BidangPerusahaan">Sektor Perusahaan</label>
 												<input type="text" name="jenjang" id="jenjang" />
 											</div>
+											<div class="field">
+												<label for="message">Alamat Perusahaan</label>
+											<textarea name="message" id="message" rows="5"></textarea>
+											</div>
 										</div>
+										<div id = "entrepre" style = "display:none;">
+											<div class="field half first">
+												<label for="Perusahaan">Nama Perusahaan</label>
+												<input type="text" name="univ" id="univ" />
+											</div>
+											<div class="field half">
+												<label for="BidangPerusahaan">Sektor Perusahaan</label>
+												<input type="text" name="jenjang" id="jenjang" />
+											</div>
+											<div class="field half first">
+												<label for="Perusahaan">Jumlah Pegawai</label>
+												<input type="text" name="univ" id="univ" />
+											</div>
+											<div class="field half">
+												<label for="BidangPerusahaan">Omzet (Rupiah)</label>
+												<input type="text" name="jenjang" id="jenjang" />
+											</div>
+											<div class="field">
+												<label for="message">Alamat Perusahaan</label>
+											<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<div id = "klainnya" style = "display:none;">
+											<div class="field">
+												<label for="message">Keterangan</label>
+											<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+								<p><br></p>
+								<h2>Social Media<br></h2>
+								<div class="field half first">
+									<label for="tahun lulus">Tahun Lulus</label>
+									<input type="text" name="tahun lulus" id="tahlulus" />
+								</div>
+								<div class="field half">
+									<label for="Program Studi">Program Studi</label>
+									<input type="text" name="program" id="program" />
+								</div>
 										
 								
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><a href="" class="button submit">Submit Form</a></li>
 										</ul>
 									</form>
 						</div>
@@ -213,7 +261,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Dept. Infokom PPI Turki 2017. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
