@@ -1,2 +1,2 @@
 # formAlumni
-Form Alumni PPI Turki - [alumni.ppiturki.org](alumni.ppiturki.org)
+Form Alumni PPI Turki - [alumni.ppiturki.org](http://alumni.ppiturki.org)
