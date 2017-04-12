@@ -17,8 +17,8 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Beranda</a></li>
-							<li><a href="#one">Form Alumni</a></li>
-							<li><a href="#two">Tentang</a></li>
+							<li><a href="#form">Form Alumni</a></li>
+							<li><a href="#tentang">Tentang</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -34,7 +34,7 @@
 							<p>Database Alumni PPI Turki adalah salah satu program kerja dari Departemen Pengembangan Pelajar, Alumni dan Organisasi. Dalam misinya pihak PPI Turki berupaya untuk mengumpulkan data - data dari pelajar yang pernah menetap dan berkuliah di Turki.</p>
 							<p>Database ini bertujuan untuk mendata alumni dari SMA/sederajat dan perguruan tinggi di Turki. (Tidak dikhususkan untuk alumni dari lembaga pendidikan non formal)</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Masukkan Data alumni</a></li>
+								<li><a href="#form" class="button scrolly">Masukkan Data alumni</a></li>
 							</ul>
 <!--
 							<p><br><br></p>
@@ -44,54 +44,54 @@
 					</section>
 
 				<!-- One -->
-				<section id="one" class="wrapper style1 fullscreen fade-up">
+				<section id="form" class="wrapper style1 fullscreen fade-up">
 				<div class="inner">
 				<form method="POST" action="http://formspree.io/dbalumnippiturki@gmail.com">
 					
 					<h2>Data Diri<br></h2>
 					<div class="field half first">
-						<label for="name">Nama Lengkap</label>
+						<label for="name">a. Nama Lengkap</label>
 						<input type="text" name="name" id="name" />
 					</div>
 					<div class="field half">
-						<label for="email">Email</label>
+						<label for="email">b. Email</label>
 						<input type="email" name="email" id="email" />
 					</div>
 					<div class="field half first">
-						<label for="asalkota">Asal Kota</label>
+						<label for="asalkota">c. Asal Kota</label>
 						<input type="text" name="asal kota" id="name" />
 					</div>
 					<div class="field half">
-						<label for="notelp">No. Telp/HP</label>
+						<label for="notelp">d. No. Telp/HP</label>
 						<input type="text" name="no_telp" id="notelp" />
 					</div>
 					<div class="field">
-						<label for="jenisKelamin">Jenis Kelamin</label>
+						<label for="jenisKelamin">e. Jenis Kelamin</label>
 						<select name="jenis kelamin">
 						<option value="Laki-Laki" selected>Laki-Laki</option>
 						<option value="Perempuan">Perempuan</option>
 						</select>
 					</div>
 					<div class="field">
-						<label for="message">Alamat Sekarang</label>
+						<label for="message">f. Alamat Sekarang</label>
 						<textarea name="alamat_sekarang" id="message" rows="5"></textarea>
 					</div>
 					<p><br></p>
 					<h2>Pendidikan di Turki<br></h2>
 					<div class="field half first">
-						<label for="tahun lulus">Tahun Lulus</label>
+						<label for="tahun lulus">a. Tahun Lulus</label>
 						<input type="text" name="tahun lulus" id="tahlulus" />
 					</div>
 					<div class="field half">
-						<label for="Program Studi">Program Studi</label>
+						<label for="Program Studi">b. Program Studi</label>
 						<input type="text" name="program studi" id="program" />
 					</div>
 					<div class="field half first">
-						<label for="Universitas">Universitas/Institusi</label>
+						<label for="Universitas">c. Universitas/Institusi</label>
 						<input type="text" name="universitas" id="univ" />
 					</div>
 					<div class="field half">
-						<label for="Jenjang">Jenjang</label>
+						<label for="Jenjang">d. Jenjang</label>
 						<select name="jenjang">
 							<option value="SMA" selected>SMA (High school)</option>
 							<option value="S1">S1 (Bachelor)</option>
@@ -100,11 +100,11 @@
 						</select>
 					</div>
 					<div class="field half first">
-						<label for="Kota">Kota</label>
+						<label for="Kota">e. Kota</label>
 						<input type="text" name="Kota" id="kota" />
 					</div>
 					<div class="field half">
-						<label for="Jalur ke Turki">Jalur ke Turki</label>
+						<label for="Jalur ke Turki">f. Jalur ke Turki</label>
 						<select name="jalur ke turki">
 						<option value="YTB" selected>YTB</option>
 						<option value="Mandiri">Mandiri</option>
@@ -123,55 +123,55 @@
 					</div>
 					<div id = "lanjutKuliah">
 						<div class="field half first">
-						<label for="ProgStudi">Program Studi</label>
+						<label for="ProgStudi">a. Program Studi</label>
 						<input type="text" name="univ" id="univ" />
 						</div>
 						<div class="field half">
-							<label for="Jenjang">Jenjang</label>
+							<label for="Jenjang">b. Jenjang</label>
 							<input type="text" name="jenjang studi sekarang" id="jenjang" />
 						</div>
 						<div class="field half first">
-						<label for="Universitas">Universitas</label>
+						<label for="Universitas">c. Universitas</label>
 						<input type="text" name="univ sekarang" id="univ" />
 						</div>
 						<div class="field half">
-						<label for="Negara">Negara</label>
+						<label for="Negara">d. Negara</label>
 						<input type="text" name="negara" id="negara" />
 						</div>
 					</div>
 					<div id = "bekerja" style = "display:none;">
 						<div class="field half first">
-						<label for="Perusahaan">Nama Perusahaan</label>
+						<label for="Perusahaan">a. Nama Perusahaan</label>
 						<input type="text" name="nama perusahaan" id="nama perusahaan" />
 						</div>
 						<div class="field half">
-							<label for="BidangPerusahaan">Sektor Perusahaan</label>
+							<label for="BidangPerusahaan">b. Sektor Perusahaan</label>
 							<input type="text" name="sektor" id="sektor" />
 						</div>
 						<div class="field">
-							<label for="message">Alamat Perusahaan</label>
+							<label for="message">c. Alamat Perusahaan</label>
 						<textarea name="alamat" id="alamat" rows="5"></textarea>
 						</div>
 					</div>
 					<div id = "entrepre" style = "display:none;">
 						<div class="field half first">
-							<label for="Perusahaan">Nama Perusahaan</label>
+							<label for="Perusahaan">a. Nama Perusahaan</label>
 							<input type="text" name="nama perusahaan" id="nama perusahaan" />
 						</div>
 						<div class="field half">
-							<label for="BidangPerusahaan">Sektor Perusahaan</label>
+							<label for="BidangPerusahaan">b. Sektor Perusahaan</label>
 							<input type="text" name="sektor perusahaan" id="sektor" />
 						</div>
 						<div class="field half first">
-							<label for="Perusahaan">Jumlah Pegawai</label>
+							<label for="Perusahaan">c. Jumlah Pegawai</label>
 							<input type="text" name="jumlah pegawai" id="jumlahpegawai" />
 						</div>
 						<div class="field half">
-							<label for="BidangPerusahaan">Omzet (Rupiah)</label>
+							<label for="BidangPerusahaan">d. Omzet (Rupiah)</label>
 							<input type="text" name="bidang perusahaan" id="bidangperusahaan" />
 						</div>
 						<div class="field">
-							<label for="message">Alamat Perusahaan</label>
+							<label for="message">e. Alamat Perusahaan</label>
 						<textarea name="alamat perusahaan" id="message" rows="5"></textarea>
 						</div>
 					</div>
@@ -181,15 +181,15 @@
 						<textarea name="keterangan lainnya" id="message" rows="5"></textarea>
 						</div>
 					</div>
-			<p>test<br></p>
+			<p>Option berbeda sesuai dengan pilihan awal yang dipilih<br></p>
 					
 					<h2>Pengalaman Organisasi<br></h2>
 					<div class="field">
-						<label for="message">Saat di Turki</label>
+						<label for="message">a. Saat di Turki</label>
 						<textarea name="pengalaman organisasi di turki" id="message" rows="5"></textarea>
 					</div>
 					<div class="field">
-						<label for="message">Setelah lulus dari Turki</label>
+						<label for="message">b. Setelah lulus dari Turki</label>
 						<textarea name="pengalaman organisasi setelah lulus" id="message" rows="5"></textarea>
 					</div>
 					<p>(untuk kolom pengalaman organisasi tidak wajib diisi)</p>
@@ -258,11 +258,11 @@
 				</section>
 
 				<!-- Three -->
-<!--
-					<section id="three" class="wrapper style1 fade-up">
+					<section id="tentang" class="wrapper style2 fade-up">
 						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>Tentang</h2>
+							<p>Bagian ini sedang dalam konstruksi.</p>
+<!--
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -314,9 +314,9 @@
 							</div>
 						</div>
 					</section>
+-->
 
 			</div>
--->
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
