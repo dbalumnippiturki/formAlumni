@@ -1,3 +1,12 @@
+.wrapper .inner .socmed a img {
+	width: 30px;
+	height: 30px;
+}
+
+.wrapper .inner .menu li{
+	color: white;
+}
+
 .wrapper.style4 .icon.major:before {
 	color: #FF4536;
 }
