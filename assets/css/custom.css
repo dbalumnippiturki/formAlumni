@@ -1,0 +1,38 @@
+.wrapper.style4 .icon.major:before {
+	color: #FF4536;
+}
+
+.wrapper.style4-alt .icon.major:before {
+	color: #FF4536;
+}
+
+.wrapper.style4 {
+	background-color: #694F91;
+}
+
+.wrapper.style4-alt {
+	background-color: #694F91;
+}
+
+.wrapper.style4 .inner h3 {
+	margin-bottom: 40px;
+	font-weight: normal;
+}
+
+.wrapper.style4 .inner h2 {
+	margin-bottom: 0;
+}
+
+.wrapper .inner .column1 {
+	padding: 0 30px 0 0;
+	width: 33%;
+	display: inline-block;
+}
+
+.wrapper .inner .column1 p {
+	font-size: 14px;
+}
+
+.wrapper .inner #monthCB {
+	text-align: center;
+}
