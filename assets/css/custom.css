@@ -3,6 +3,10 @@
 	height: 30px;
 }
 
+.wrapper .inner .socmed a img:hover {
+	transform: scale(1.05, 1.05);
+}
+
 .wrapper .inner .menu li{
 	color: white;
 }
@@ -45,3 +49,12 @@
 .wrapper .inner #monthCB {
 	text-align: center;
 }
+
+
+/* Hover effects */
+
+/*
+#sidebar .inner a img:hover {
+	transform: scale(1.05, 1.05);
+}
+*/
